@@ -1,0 +1,14 @@
+name: Pull Request validation
+
+on: [pull_request]
+
+
+jobs:
+  adv-marketplace-contracts-ci:
+    name: Run adv-marketplace-contracts validation
+    uses: ./.github/workflows/adv-marketplace-contracts-ci.yaml
+
+  adv-marketplace-frontend-ci:
+    name: Run adv-marketplace-frontend validation
+    uses: ./.github/workflows/adv-marketplace-frontend-ci.yaml
+

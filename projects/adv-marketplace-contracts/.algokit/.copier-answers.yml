@@ -1,0 +1,10 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: 1.2.4
+_src_path: gh:algorandfoundation/algokit-python-template
+author_email: haotrinh142@gmail.com
+author_name: Trinhvhao
+contract_name: adv_marketplace
+deployment_language: python
+preset_name: production
+project_name: adv-marketplace-contracts
+
